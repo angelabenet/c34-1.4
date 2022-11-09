@@ -25,10 +25,7 @@ function setup() {
  
 
   //bola pedurada por um elástico 
-  ball = Bodies.circle(50,200,20);
-  World.add(world,ball);
 
-  slingShot = new Slingshot(this.ball,{x:100,y:100});
 
 }
 function draw() {
